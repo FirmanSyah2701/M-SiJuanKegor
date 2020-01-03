@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">SiJuanKeGor</string>
+<<<<<<< HEAD
     <string name="title_activity_bottom_navigation">Bottom_navigation</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+=======
+>>>>>>> origin/master
 </resources>

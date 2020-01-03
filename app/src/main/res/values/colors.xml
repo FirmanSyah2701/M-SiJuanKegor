@@ -3,8 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+<<<<<<< HEAD
     <color name="colormerah">#E8695B</color>
     <color name="colorungu">#9A0071</color>
     <color name="colorputih">#FFFFFF</color>
     <color name="colororen">#FF971D</color>
+=======
+>>>>>>> origin/master
 </resources>
