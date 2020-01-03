@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colororen">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colororen"
+            android:src="@drawable/kembali"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIMATIF"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="Himpunan Mahasiswa Teknik Informatika"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Akun Saya"
+            android:background="@color/colororen"
+            android:textColor="@color/colorputih"
+            android:layout_margin="10dp"
+            android:onClick="akunSaya"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Ganti Password"
+            android:background="@color/colororen"
+            android:textColor="@color/colorputih"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="100dp"
+            android:onClick="gantiPassword"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Keluar"
+            android:background="@color/colororen"
+            android:textColor="@color/colorputih"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="200dp"
+            android:onClick="keluar"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
