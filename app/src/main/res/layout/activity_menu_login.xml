@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu_login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorungu">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorungu"
+            android:src="@drawable/kembali"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SijuanKegor"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="Silakan Pilih Menu Login Untuk Melanjutkan"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorputih">
+        <Button
+            android:id="@+id/btn_pembina"
+            android:layout_marginTop="50dp"
+            android:layout_width="230dp"
+            android:layout_height="33dp"
+            android:background="@color/colormerah"
+            android:text="PEMBINA"
+            android:textColor="@color/colorputih">
+        </Button>
+        <Button
+            android:id="@+id/btn_ormawa"
+            android:layout_marginTop="150dp"
+            android:layout_width="230dp"
+            android:layout_height="33dp"
+            android:background="@color/colorPrimary"
+            android:text="ORMAWA"
+            android:textColor="@color/colorputih">
+        </Button>
+
+    </RelativeLayout>
+
+</LinearLayout>
